@@ -1,4 +1,4 @@
-package ch.coop.demo;
+package ch.coop.notes;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

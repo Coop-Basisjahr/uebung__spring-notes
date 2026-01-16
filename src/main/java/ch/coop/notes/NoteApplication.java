@@ -1,14 +1,14 @@
-package ch.coop.demo;
+package ch.coop.notes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
-public class DemoApplication {
+public class NoteApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(NoteApplication.class, args);
 	}
 
 }
